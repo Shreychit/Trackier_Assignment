@@ -10,9 +10,9 @@ import AppLoader from "../../components/layout/AppLoader";
 import ShiftTaskModal from "./ShiftTaskModal";
 
 export const statusMap = {
-  todos: "Todos",
+  todos: "Backlog",
   inProgress: "In Progress",
-  completed: "Completed",
+  completed: "Done",
 };
 
 const sleep = (ms = 1000) => new Promise((r) => setTimeout(r, ms));
