@@ -24,3 +24,4 @@ fb-emulator
 *.sln
 *.sw?
 .firebase
+.src/firebase.js
